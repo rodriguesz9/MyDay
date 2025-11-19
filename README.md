@@ -8,7 +8,7 @@ Interface Intuitiva: Design limpo e minimalista para uma experiência de usuári
 
 Sistema de Prioridades: Marque tarefas como urgentes ou importantes para manter o controle total do seu tempo.
 
-[Funcionalidade Extra Vazia]: Exemplo: Suporte a Markdown para notas detalhadas.
+
 
 🛠️ Tecnologias Utilizadas
 Este projeto foi construído utilizando as seguintes tecnologias:
