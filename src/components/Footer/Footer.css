@@ -1,0 +1,9 @@
+#rodape{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    padding: 8px;
+    color: rgb(207, 207, 207);
+    border-radius: 3px;
+    box-shadow: 10px;
+    box-sizing: border-box;
+}

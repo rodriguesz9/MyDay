@@ -1,0 +1,142 @@
+.tutorial-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 9998;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.tutorial-card {
+  position: fixed;
+  background: #161b22;
+  border: 2px solid #238636;
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  max-width: 90%;
+  z-index: 9999;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  animation: slideIn 0.4s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tutorial-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tutorial-left {
+  top: 50%;
+  left: 320px;
+  transform: translateY(-50%);
+}
+
+.tutorial-top-right {
+  top: 80px;
+  right: 24px;
+}
+
+.tutorial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.tutorial-header h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #c9d1d9;
+  margin: 0;
+}
+
+.tutorial-close {
+  background: transparent;
+  border: none;
+  color: #8b949e;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.tutorial-close:hover {
+  background: #30363d;
+}
+
+.tutorial-description {
+  color: #8b949e;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.tutorial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorial-progress {
+  font-size: 13px;
+  color: #8b949e;
+  font-weight: 600;
+}
+
+.tutorial-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.tutorial-btn-skip {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #8b949e;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.tutorial-btn-skip:hover {
+  background: #30363d;
+  color: #c9d1d9;
+}
+
+.tutorial-btn-next {
+  background: #238636;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.tutorial-btn-next:hover {
+  background: #2ea043;
+}
